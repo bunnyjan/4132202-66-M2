@@ -24,12 +24,9 @@
                       alert("Can't insert data.")
                     else
                       $("#tb_member").load("/listItem.php")
-                      $('#staticBackdrop').modal('hide');
             });
         });
     });
-
-
 
 
 </script>
