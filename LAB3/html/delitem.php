@@ -1,7 +1,8 @@
 <?php
+
 require "condb.php";
 
-$id = $_GET['mem_id'];
+$id = $_POST['mem_id'];
 $sql = "DELETE FROM tb_member WHERE id_member = '$id' ";
 
 try {
